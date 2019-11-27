@@ -1,0 +1,22 @@
+.table-wrapper {
+  border: 1px solid #f1f1f4;
+  overflow-x: auto;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 20% 35% 20% 25%;
+  padding: 15px 15px;
+  background: #f1f1f4;
+  color: #556789;
+  font-weight: 700;
+  min-width: 700px;
+}
+
+.table-header {
+  grid-template-columns: 15% 20% 25% auto;
+}
+
+.table-wrapper {
+  overflow: inherit;
+}

@@ -1,0 +1,17 @@
+header {
+    background-color: #1F2640;
+    min-height: 60px;
+}
+
+.header-content {
+    width: 80%;
+    margin: auto;
+}
+
+.image-container {
+    width: 200px;
+}
+
+img {
+    width:100%;
+}

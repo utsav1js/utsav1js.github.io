@@ -1,0 +1,9 @@
+.pricing-row-wrapper{
+    color:rgb(134, 149, 173);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.amount {
+    font-weight: 700;
+}

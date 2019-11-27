@@ -1,0 +1,80 @@
+.row-wrapper {
+    display: grid;
+    grid-template-columns: 20% 35% 20% 25%;
+    padding: 15px 15px;
+    border-bottom: 1px solid #f1f1f4;
+    overflow: hidden;
+    color: #556789;
+    min-width: 700px;
+}
+
+.action-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    width: 15px;
+    margin-right: 5px; 
+}
+
+img {
+    display: block;
+    /* width: 100%; */
+}
+
+.action-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.campaign-image { 
+    display: inline-block;
+    width: 40px;
+}
+
+.campaign-text {
+    margin-left: 20px; 
+}
+
+.campaign{
+    display: flex;
+}
+
+.date-text {
+    display: inline-block;
+    color: #334772;
+    margin-bottom: 5px;
+}
+
+.date-diff {
+    font-style: italic;
+    color: #8998af;
+}
+.react-datepicker-wrapper {
+    z-index: 47;
+    opacity: 0;
+} 
+
+.scheduleAgain {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+
+input {
+    text-align: left;
+}
+
+@media(min-width: 768px) {
+    .row-wrapper{
+        grid-template-columns: 15% 20% 25% auto;
+        overflow: inherit;
+    }
+    .action-col {
+        grid-column-gap: 20px;
+    }
+}

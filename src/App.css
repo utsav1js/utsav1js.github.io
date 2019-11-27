@@ -1,0 +1,23 @@
+*,*:after, *:before {
+  box-sizing: border-box;
+}
+
+
+.react-datepicker__input-container {
+  position: absolute;
+  width: 20px;
+  opacity: 0;
+  top: 11px;
+  right: 39px;
+}
+
+@media(min-width: 768px) {
+  main {
+    width: 80%;
+  }
+
+  .react-datepicker__input-container {
+    position: static;
+    width: auto;
+  }
+}

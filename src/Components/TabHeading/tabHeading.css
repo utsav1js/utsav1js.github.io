@@ -1,0 +1,20 @@
+.tab-heading {
+    display: inline-block;
+    padding-bottom: 3px;
+    padding: 0 20px 20px;
+    font-weight: 500;
+    color:#556789;
+    cursor: pointer;
+    max-width: 33.3%;
+    text-align: center;
+}
+
+.tab-wrapper {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f1f1f4;
+}
+
+.active {
+ color:#83a62e;
+ border-bottom: 5px solid #83a62e;
+}
